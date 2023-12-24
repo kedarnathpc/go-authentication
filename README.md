@@ -41,6 +41,7 @@ Before you begin, ensure you have met the following requirements:
 ## Usage
 User Registration
 To register a new user, make a POST request to /api/register with the following JSON data:
+
     {
       "name": "Your Name",
       "email": "your@email.com",
@@ -49,6 +50,7 @@ To register a new user, make a POST request to /api/register with the following 
 
 ## User Login
 To log in, make a POST request to /api/login with the following JSON data:
+
     {
       "email": "your@email.com",
       "password": "your_password"
